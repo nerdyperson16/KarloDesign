@@ -358,6 +358,10 @@ p.skipnavigation a:focus {
 #support_text h5 {
     font-family: 'Playfair Display', serif;
 }
+#support_text a {
+    color: white;
+    text-decoration: none;
+}
 
 /* Footer */
 footer {
