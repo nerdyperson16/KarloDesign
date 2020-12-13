@@ -31,7 +31,7 @@ p.skipnavigation {
 p.skipnavigation a {
     position: absolute;
     left: -10000px;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 p.skipnavigation a:focus {
@@ -45,7 +45,8 @@ p.skipnavigation a:focus {
 /* Navigation bar */
 .topnav h3 {
     float: left;
-    padding: 0.5%;
+    padding: 0.6%;
+    font-family: 'Comic Neue', cursive;
 }
 #topnav_exempt {
     padding: 0;
@@ -68,9 +69,11 @@ p.skipnavigation a:focus {
     text-decoration: none;
     font-size: 17px;
     border-radius: 5px;
+    
 }
 #floatright {
     float: right;
+    font-family: 'Raleway', sans-serif;
 }
 .topnav a:hover {
     background-color: grey;
@@ -111,6 +114,7 @@ p.skipnavigation a:focus {
     padding: 20px;
     background-color: #f44336;
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 .closebtn {
     margin-left: 15px;
@@ -154,6 +158,7 @@ p.skipnavigation a:focus {
     /*z-index: 20;*/
     text-align: center;
     color: white;
+    font-family: 'Dosis', sans-serif;
 }
 
 /* About */
@@ -165,16 +170,25 @@ p.skipnavigation a:focus {
     background-color: black;
     color: white;
     width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('files/Stock_Img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #about_text h2 {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Architects Daughter', cursive;
+}
+#about_text h4 {
+    font-family: 'Indie Flower', cursive;
 }
 #about_text p {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Schoolbell', cursive;
+    font-size: 18px;
 }
 #about_text hr {
     width: 25%;
@@ -187,23 +201,25 @@ p.skipnavigation a:focus {
     vertical-align: middle;
     display: table-cell;
     width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('files/Stock_Img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #experience_text h2 {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 #experience_text p {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-}
-.cardsection img {
-    width: 25%;
-}
-.cardsection {
-    padding: 1%;
-    border: 1px solid black;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 /* Site references cards */
@@ -216,10 +232,17 @@ p.skipnavigation a:focus {
     width: 25%;
     display: inline-block;
     margin: 1%;
+    background-color: white;
 }
 .card_text {
     padding: 2px 16px;
     text-align: center;
+}
+.card_text h4 {
+    font-family: 'Philosopher', sans-serif;
+}
+.card_text p {
+    font-family: 'Josefin Slab', serif;
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -232,6 +255,7 @@ p.skipnavigation a:focus {
     border: 0;
     border-radius: 10px;
     margin-top: 5px;
+    font-family: 'Viga', sans-serif;
 }
 #card_center button:hover {
     background-color: dodgerblue;
@@ -246,6 +270,23 @@ p.skipnavigation a:focus {
     width: 100vw;
     background-color: black;
     color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('files/Stock_Img4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sales_text hr {
+    width: 50%;
+}
+#sales_text h2 {
+    font-family: 'Handlee', cursive;
+}
+#sales_text h3 {
+    padding: 1%;  
+    font-family: 'Neucha', cursive;
+}
+#sales_text p {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 17px;
 }
 
 /* Pricing Tables */
@@ -279,15 +320,6 @@ p.skipnavigation a:focus {
     background-color: black;
     font-size: 20px;
 }
-.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
-}
 
 /* Support */
 #support_text {
@@ -296,30 +328,62 @@ p.skipnavigation a:focus {
     vertical-align: middle;
     display: table-cell;
     width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('files/Stock_Img3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 #support_text h2 {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Fredericka the Great', cursive;
 }
 #support_text p {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Schoolbell', cursive;
+    font-size: 18px;
+}
+#support_text h4 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Schoolbell', cursive;
+}
+#notice {
+    color: lightcoral;
+}
+#support_text h5 {
+    font-family: 'Playfair Display', serif;
 }
 
 /* Footer */
 footer {
-    width: 85%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 footer p {
     text-align: center;
     padding: 0.5%;
+    font-family: 'Schoolbell', cursive;
+}
+#footer_exempt p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer_exempt p a {
+    color: black;
+    text-decoration: none;
 }
 
 /* Responsive Design */
+@media screen and (max-width: 1250px) {
+    .topnav h3 {
+        padding: 1.0%;
+    }
+}
 @media screen and (max-width: 795px) {
     .topnav a:not(:last-child) {
         display: none;
@@ -327,6 +391,7 @@ footer p {
     .topnav a.icon {
         float: right;
         display: block;
+        font-size: 10px;
     }
     .topnav.responsive {
         position: relative;
@@ -343,9 +408,24 @@ footer p {
         display: block;
         text-align: left;
     }
+    .card img {
+        display: none;
+    }
+    .card {
+        width: 75%;
+    }
+    .alert {
+        display: none;
+    }
 }
 @media only screen and (max-width: 600px) {
     .columns {
         width: 100%;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 560px) {
+    #skipNav {
+        display: none;
     }
 }
