@@ -298,6 +298,7 @@ p.skipnavigation a:focus {
 .price {
     list-style-type: none;
     border: 1px solid #eee;
+    border-radius: 10px;
     margin: 0;
     padding: 0;
     -webkit-transition: 0.3s;
@@ -313,6 +314,7 @@ p.skipnavigation a:focus {
 }
 .price li {
     border-bottom: 1px solid #eee;
+    border-radius: 10px;
     padding: 20px;
     text-align: center;
 }
